@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Bebas";
+    src: url("BebasNeue-Regular.ttf");
+}
+#mycred-notificiation-wrap {
+    position: fixed !important;
+    position: fixed;
+    z-index: 9999;
+    opacity: 0.8;
+}
+#mycred-notificiation-wrap .notice-item {
+    position: relative;
+    display: block;
+    width: auto;
+    height: auto;
+    min-width: 250px;
+    font-size: 17px; !important;
+    font-family: Bebas, sans-serif; !important;
+}
+#mycred-notificiation-wrap .notice-item-close {
+    display: block;
+    float: right;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Bebas";
+    src: url("BebasNeue-Regular.ttf");
+}
+.texte-points
+{
+    font-size: 17px; !important;
+    font-family: Bebas, sans-serif; !important;
+}
+.points-total
+{
+    font-size: 23px;    !important;
+    margin: 15px; !important;
+    font-family: Bebas, sans-serif; !important;
+}
+.notif
+{
+    z-index: 9999;
+    background-image: url("https://source.unsplash.com/random");!important;
+}
